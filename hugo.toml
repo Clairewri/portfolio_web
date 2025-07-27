@@ -1,0 +1,8 @@
+baseURL = "https://yourusername.github.io"
+languageCode = "en-us"
+title = "Your Name - Portfolio & Blog"
+theme = "ananke"
+
+[params]
+  description = "Welcome to my portfolio and blog"
+  featured_image = ""
