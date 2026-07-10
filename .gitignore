@@ -1,0 +1,17 @@
+# Hugo build output and cache
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Hugo lock/temp
+hugo_stats.json
+
+# macOS
+.DS_Store
+
+# Editor / OS junk
+*.swp
+Thumbs.db
+
+# Node (only if you ever add npm packages)
+node_modules/
