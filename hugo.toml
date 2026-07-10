@@ -1,8 +1,69 @@
-baseURL = "https://yourusername.github.io"
-languageCode = "en-us"
-title = "Your Name - Portfolio & Blog"
-theme = "ananke"
+baseURL = 'https://clairewri.github.io/portfolio_web/'
+languageCode = 'en-us'
+title = "Clairewriting"
+theme = 'PaperMod'
+
+enableEmoji = true
+[permalinks]
+posts = "/:section/:year/:month/:title/"
+
+# Simplified menu with just 3 items
+[menu]
+[[menu.main]]
+name = "Technical Writing"
+url = "/categories/technical-writing/"
+weight = 10
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 20
+
+[[menu.main]]
+name = "🔍"
+url = "/search/"
+weight = 40
 
 [params]
-  description = "Welcome to my portfolio and blog"
-  featured_image = ""
+defaultTheme = "light"
+description = "Technical Writing, Translation, and Cultural Insights"
+author = "Claire"
+ShowReadingTime = true
+ShowToc = true
+TocOpen = false
+ShowPostNavLinks = true
+
+# Enable search
+ShowSearch = true
+SearchPlaceholder = "Search..."
+
+# Configure search
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
+
+[params.profileMode]
+enabled = true
+title = "Hi, I'm Claire 👋"
+subtitle = "Technical Writer | Translator | Cultural Bridge Builder"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/Clairewri"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:claireguo86@gmail.com"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
