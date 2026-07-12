@@ -2,7 +2,7 @@
 title: "To Buy: From Running-out Washing Liquid to a Shipped App"
 date: 2026-07-10T10:00:00+10:00
 draft: false
-categories: ["projects", "business-analysis", "product-management"]
+categories: ["technical-writing", "projects", "business-analysis", "product-management"]
 tags: ["requirements", "PRD", "PWA", "case study", "firebase", "technical writing"]
 summary: "A shared grocery-list app I designed, scoped, and shipped with AI-assisted coding: requirements, trade-offs, and a product-owner retrospective."
 ShowToc: true
