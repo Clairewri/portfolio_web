@@ -53,7 +53,7 @@ keys = ["title", "permalink", "summary", "content"]
 [params.profileMode]
 enabled = true
 title = "Hi, I'm Claire 👋"
-subtitle = "Technical Writer | Translator | Cultural Bridge Builder"
+subtitle = "write & think"
 
 [[params.socialIcons]]
 name = "github"
