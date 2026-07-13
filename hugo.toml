@@ -11,6 +11,7 @@ posts = "/:section/:year/:month/:title/"
 [menu]
 [[menu.main]]
 name = "Technical Writing"
+identifier = "technical-writing-menu"
 url = "/categories/technical-writing/"
 weight = 10
 
